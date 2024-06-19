@@ -15,6 +15,25 @@
     text-align: center;
     animation-fill-mode: both; 
 }
+
+.p {
+    color: aquamarine;
+    font-size: 40px;
+}
+p:hover {
+    transition-property: all;
+    transition-duration: 2S;
+    color: RED;
+}
+
+
+
+
+
+
+
+
+
 @keyframes goodbye{
     from { 
         border-color: red;

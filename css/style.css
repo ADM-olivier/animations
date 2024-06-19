@@ -1,0 +1,30 @@
+
+.goodbye { 
+    display: flex;
+    border: 20px solid black;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+ 
+    display: block;
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    left: 200px;
+    animation: goodbye 2s infinite alternate ;
+    text-align: center;
+    animation-fill-mode: both; 
+}
+@keyframes goodbye{
+    from { 
+        border-color: red;
+        /* transform: translate(200px); */
+        transform:rotate(-180deg);
+    }
+    to { 
+        border-color: green;
+        /* transform: translate(200px);  */
+        transform: translate(180deg);      
+    }
+
+}
